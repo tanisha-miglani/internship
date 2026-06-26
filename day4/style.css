@@ -1,0 +1,16 @@
+style code down here .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(158, 217, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
