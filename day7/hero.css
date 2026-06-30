@@ -32,14 +32,13 @@
     top: 0; 
     left: 0;
     
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     
 }
 
 .content{
     position: relative;
     color: white;
-    z-index:1
 }
 .content h1{
     font-size: 65px;
@@ -47,21 +46,22 @@
 }   
 .content p{ 
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.4;
+    margin-bottom: 10px;
 }   
 .buttons{
      display: flex;
      justify-content:center;
-     gap: 20px;
+     gap: 40px;
 }
 
 button{
-    padding: 15px 35px;
+    padding: 15px 25px;
     border:none;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 15px;
     cursor:pointer;
-    background:red;
+    background:rgb(109, 7, 109);
     color:white;
 }
 
