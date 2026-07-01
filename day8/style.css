@@ -18,15 +18,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 80px;
-    position: sticky;
+   /* position: sticky;*/
     top: 0;
     z-index: 1000;
+    flex-wrap: wrap;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    gap:10px;
+    gap:20px;
 }
 
 .logo img{
@@ -79,6 +80,7 @@ nav ul li a:hover {
 }
 
 /* ===== Hero ===== */
+
  * {
      margin: 0;
      padding: 0;
