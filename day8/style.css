@@ -49,7 +49,10 @@ body {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 2px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 nav ul li {
@@ -61,6 +64,7 @@ nav ul li a {
     color: #fff;
     font-size: 17px;
     transition: .3s;
+    white-space: nowrap;
 }
 
 nav ul li a:hover {
