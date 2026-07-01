@@ -416,11 +416,14 @@ nav ul li a:hover {
                         flex-direction: column;
                         height: auto;
                         padding: 5px;
+                        flex-wrap: wrap;
+
                     }
         
                     nav ul {
                         justify-content: center;
                         margin: 20px 0;
+                        flex-wrap: wrap;
                     }
         
                     .hero {
