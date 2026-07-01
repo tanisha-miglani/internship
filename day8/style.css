@@ -48,7 +48,7 @@ body {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 4px;
+    gap: 2px;
 }
 
 nav ul li {
@@ -231,8 +231,8 @@ nav ul li a:hover {
 }
 
 .card img {
-    width: 90%;
-    height: 250px;
+    width: 100%;
+    height: 285px;
     object-fit: cover;
 }
 
