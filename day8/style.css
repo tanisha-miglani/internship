@@ -18,7 +18,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 80px;
-   /* position: sticky;*/
     top: 0;
     z-index: 1000;
     flex-wrap: wrap;
@@ -238,7 +237,7 @@ nav ul li a:hover {
 
 .card img {
     width: 100%;
-    height: 285px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -416,7 +415,6 @@ nav ul li a:hover {
                     }
         
                     nav ul {
-                        flex-wrap: wrap;
                         justify-content: center;
                         margin: 20px 0;
                     }
@@ -451,30 +449,41 @@ nav ul li a:hover {
                     }
         
                 }
-        
                 @media(max-width:576px) {
-        
+                
                     .products,
                     .why,
                     .reviews,
                     .brands {
                         padding: 40px 20px;
                     }
-        
+                
                     .hero {
                         padding: 40px 20px;
                     }
-        
+                
                     .hero-text h1 {
                         font-size: 34px;
                     }
-        
+                
                     .card {
                         width: 100%;
                     }
-        
+                
                     .brand {
                         width: 100%;
                     }
-        
+                
+                    .newsletter {
+                        padding: 50px 20px;
+                    }
+                
+                    .newsletter input,
+                    .newsletter button {
+                        width: 100%;
+                        margin: 10px 0;
+                    }
+                
                 }
+
+        
