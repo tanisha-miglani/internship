@@ -49,7 +49,7 @@ body {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 2px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
